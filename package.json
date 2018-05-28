@@ -1,0 +1,37 @@
+{
+  "name": "inovacion2",
+  "version": "1.0.9",
+  "description": "",
+  "ServerName": "Isabel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Revan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt-nodejs": "0.0.30",
+    "@types/body-parser": "^1.17.0",
+    "@types/connect-flash": "0.0.34",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/ejs": "^2.5.1",
+    "@types/express-session": "^1.15.8",
+    "@types/passport": "^0.4.5",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.1.2",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/morgan": "^1.7.35",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.4"
+  }
+}
